@@ -28,3 +28,22 @@ contract storage_factory is simple{
 
     
 }
+
+Output :
+
+call
+[call]
+from: 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
+to: storage_factory.simpleStorageArray(uint256)
+data: 0x645...00000
+from	0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
+to	storage_factory.simpleStorageArray(uint256) 0xd9145CCE52D386f254917e481eB44e9943F39138
+execution cost	25892 gas (Cost only applies when called by a contract)
+input	0x645...00000
+decoded input	{
+	"uint256 ": "0"
+}
+decoded output	{
+	"0": "address: 0x5C9eb5D6a6C2c1B3EFc52255C0b356f116f6f66D"
+        }
+        
